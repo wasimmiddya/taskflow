@@ -18,3 +18,6 @@ Task Flow is a project management tool specifically designed for software projec
 6. **Bug Tracking:** Centralizes issue reporting to ensure no critical fix is missed.
 7. **_API Integration:_** _Connects directly with GitHub or GitLab to sync code commits with tasks(future scope)._
 8. **Workflow:** Task workflow visualization.
+
+
+**Note:** Currently we are in development phase, we will update this document frequently in the future.
