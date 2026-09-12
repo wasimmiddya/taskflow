@@ -7,9 +7,9 @@ import {
 } from "@/components/ui/avatar"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu";
 
-import { SidebarProvider, SidebarTrigger } from "../ui/sidebar";
+import { SidebarProvider } from "../ui/sidebar";
 import { AppSidebar } from "../common/AppSidebar";
-import { Bell, BellDot, BellRing } from "lucide-react";
+import { Bell, BellRing } from "lucide-react";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 
@@ -20,7 +20,7 @@ export default function AppLayout(
     const [toggleBell, setToggleBell] = useState(true);
     const Profile = () => (
         <Avatar size="lg">
-            <AvatarFallback>UH</AvatarFallback>
+            <AvatarFallback>WM</AvatarFallback>
         </Avatar>
     );
 
